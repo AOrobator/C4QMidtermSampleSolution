@@ -1,6 +1,7 @@
-package com.c4q.c4qmidtermsamplesolution;
+package com.c4q.c4qmidtermsamplesolution.login;
 
 import android.support.annotation.Nullable;
+import com.c4q.c4qmidtermsamplesolution.IPreferencesHelper;
 
 public class LoginPresenter {
 

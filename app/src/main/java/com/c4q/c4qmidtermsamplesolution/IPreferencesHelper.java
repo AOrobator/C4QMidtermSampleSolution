@@ -1,6 +1,6 @@
 package com.c4q.c4qmidtermsamplesolution;
 
-interface IPreferencesHelper {
+public interface IPreferencesHelper {
   void saveUsername(String username);
 
   String getUsername();
