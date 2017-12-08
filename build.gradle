@@ -25,3 +25,8 @@ allprojects {
 task clean(type: Delete) {
     delete rootProject.buildDir
 }
+
+subprojects { subproject -> ext.deps =
+    // Use a variable for support lib version, so you only have to update it once.
+    [support_lib: '27.0.2']
+}
