@@ -1,4 +1,8 @@
 <resources>
   <string name="app_name">C4Q Midterm Sample Solution</string>
   <string name="loops_completed">Loops completed: %1$d</string>
+  <string name="username_hint">Username</string>
+  <string name="password_hint">Password</string>
+  <string name="login">Login</string>
+  <string name="remember_username_and_password">Remember Username and Password</string>
 </resources>
