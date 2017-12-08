@@ -5,4 +5,5 @@
   <string name="password_hint">Password</string>
   <string name="login">Login</string>
   <string name="remember_username_and_password">Remember Username and Password</string>
+  <string name="this_is_number">This is number %1$d</string>
 </resources>

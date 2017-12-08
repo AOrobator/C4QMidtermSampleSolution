@@ -1,4 +1,4 @@
-package com.c4q.c4qmidtermsamplesolution;
+package com.c4q.c4qmidtermsamplesolution.login;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -8,6 +8,9 @@ import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.Toast;
+import com.c4q.c4qmidtermsamplesolution.PreferencesHelper;
+import com.c4q.c4qmidtermsamplesolution.R;
+import com.c4q.c4qmidtermsamplesolution.list.ListActivity;
 
 public class LoginActivity extends AppCompatActivity implements LoginPresenter.LoginPresentation {
 
@@ -73,7 +76,7 @@ public class LoginActivity extends AppCompatActivity implements LoginPresenter.L
   }
 
   @Override public void navigateToListActivity(String username) {
-    Intent intent = ListActivity.getIntent(this, username);
+    Intent intent = ListActivity.getNewIntent(this, username);
     startActivity(intent);
   }
 
